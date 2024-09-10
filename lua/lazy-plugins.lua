@@ -44,6 +44,16 @@ require('lazy').setup({
 
   require 'kickstart/plugins/treesitter',
 
+  require 'kickstart/plugins/lint',
+
+  -- Custom Plugins
+
+  require 'custom/plugins/nvim-tree',
+
+  require 'custom/plugins/lualine',
+
+  require 'custom/plugins/lsp-zero',
+
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
   -- place them in the correct locations.

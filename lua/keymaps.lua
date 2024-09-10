@@ -45,4 +45,9 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+-- nvim-tree keymaps
+vim.keymap.set('n', '<Leader>s', ':NvimTreeToggle<CR>', { desc = 'Toggle [N]vimTree', noremap = true, silent = true})
+vim.keymap.set('n', '<Leader>fw', '<Cmd>wincmd p<CR>', { desc = 'Focus on [w]indow', noremap = true, silent = true})
+
+
 -- vim: ts=2 sts=2 sw=2 et
